@@ -1,8 +1,9 @@
-user_name='Pratik'
-password=1234
-user_id=input('Please enter your user_name')
-passwrd=int(input('Please enter your password'))
-if user_id==user_name and passwrd==password:
-    print('Login Successful!!!')
-else:
-    print('Login Failed!!! Please try again')
+def login():
+    user_name='Pratik'
+    password=1234
+    user_id=input('Please enter your user_name')
+    passwrd=int(input('Please enter your password'))
+    if user_id==user_name and passwrd==password:
+        print('Login Successful!!!')
+    else:
+        print('Login Failed!!! Please try again')
